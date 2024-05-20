@@ -1,9 +1,4 @@
-<h1 align="center">Welcome to tablet 👋</h1>
-<p>
-  <a href="https://www.npmjs.com/package/tablet" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/tablet.svg">
-  </a>
-</p>
+<h1 align="center">Welcome to tablet ⎍</h1>
 
 > A rust based terminal app which replaces spaces with tabs.
 
@@ -19,4 +14,4 @@
 Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_Made with [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
