@@ -19,11 +19,12 @@ fn main() {
 	});
 
 	// Process files
-
 	for filename in &args[2 .. args.len()] {
 		if let Err(e) = utils::process_file(filename, spaces_per_tab) {
 			eprintln!("Error processing file: {}\nError: {}", filename, e);
 			process::exit(1);
 		}
 	}
+
+	println!("Successfully replaced all leading {} space occurrances with tabs.", &args[1])
 }
